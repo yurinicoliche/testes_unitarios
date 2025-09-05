@@ -25,9 +25,18 @@ it('deve cobrar valor de frete quando valor dos produtos for menor que 500', () 
     };
 
       
-  
+ 
+
 
     const resultado = calcularValorPedido(pedidoComEstadoR$);
 
     expect(resultado).toBe(620);
+
+    expect(resultado).toBe(420);
 });
+
+
+
+
+console.log(resultado)
+
